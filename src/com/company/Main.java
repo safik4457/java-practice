@@ -7,12 +7,12 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Scanner reader = new Scanner(System.in);
-        System.out.print("Enter a number: ");
+        int first = 10;
+        int second = 20;
 
-        int number = reader.nextInt();
-
-        System.out.println("You entered: " + number);
+        // add two numbers
+        int sum = first + second;
+        System.out.println(first + " + " + second + " = "  + sum);
 
     }
 }
