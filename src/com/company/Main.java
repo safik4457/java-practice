@@ -1,11 +1,23 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
 
+        int x;
+        int y;
+
+        x = 5;
+        y = 10;
+
+        Sumation s = new Sumation();  // s name ekta object create
+
+        int c = s.sumOfTwoNo(x,y);  // s object er maddhome method call kortechi
+
+        int d = s.sumOfThreeNo(2,3,6);
+
+        System.out.println(c);
+        System.out.println(d);
 //        Scanner reader = new Scanner(System.in);
 //        Problem11 problem11 = new Problem11();
 //
