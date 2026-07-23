@@ -27,19 +27,80 @@ public class Main {
 //
 //        System.out.println(r);
 
+//
+//        int x;
+//        int y;
+//
+//        x = 589044;
+//        y = 189034030;
+//
+//        Problem2 problem2 = new Problem2();
+//
+//        problem2.solution2(x,y);  // method call kortechi
+//
+//        int c = problem2.solution2(x,y);
+//
+//        System.out.println("The sum of " + x + " and " + y + " is: " + c);
+//    }
+//}
 
-        int x;
-        int y;
 
-        x = 589044;
-        y = 189034030;
+//        float first = 1.8f;
+//        float second = 2.9f;
+//
+//        float product = first * second;
+//
+//        System.out.println("The product is: " + product);
+//    }
+//}
 
-        Problem2 problem2 = new Problem2();
+////Find ASCII value of a character
+//        char x = 'A';
+//
+//        FindAschiiValue f = new FindAschiiValue();
+//
+//        f.getAscii(x);
+//
+//        int y = f.getAscii(x);
+//
+//        System.out.println("The ASCII value of " + x + " is: " + y);
+//    }
+//}
 
-        problem2.solution2(x,y);  // method call kortechi
 
-        int c = problem2.solution2(x,y);
+        //Compute Quotient and Remainder
 
-        System.out.println("The sum of " + x + " and " + y + " is: " + c);
+//
+//                Scanner sc = new Scanner(System.in);
+//
+//
+//                System.out.print("Enter dividend: ");
+//                int dividend = sc.nextInt();
+//
+//                System.out.print("Enter divisor: ");
+//                int divisor = sc.nextInt();
+//
+//
+//                Problem5 obj = new Problem5(dividend, divisor);
+//
+//                System.out.println("Quotient = " + obj.getQuotient());
+//                System.out.println("Remainder = " + obj.getRemainder());
+//            }
+//        }
+
+
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+
+
+        Problem6 obj = new Problem6(num);
+
+        System.out.println(obj.checkEvenOdd());
     }
 }
+
+
+
