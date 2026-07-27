@@ -1,25 +1,33 @@
 package com.company;
 
+import com.company.testClasses.Student;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int x;
-        int y;
+import java.util.Scanner;
 
-        x = 5;
-        y = 10;
 
-        Sumation s = new Sumation();  // s name ekta object create
+public class Main {
 
-        int c = s.sumOfTwoNo(x,y);  // s object er maddhome method call kortechi
+    public static void main(String[] args) {
 
-        int d = s.sumOfThreeNo(2,3,6);
-
-        System.out.println(c);
-        System.out.println(d);
+//        int x;
+//        int y;
+//
+//        x = 5;
+//        y = 10;
+//
+//        Sumation s = new Sumation();  // s name ekta object create
+//
+//        int c = s.sumOfTwoNo(x,y);  // s object er maddhome method call kortechi
+//
+//        int d = s.sumOfThreeNo(2,3,6);
+//
+//        System.out.println(c);
+//        System.out.println(d);
 //        Scanner reader = new Scanner(System.in);
 //        Problem11 problem11 = new Problem11();
 //
@@ -104,15 +112,15 @@ public class Main {
 
 
 
-        Scanner reader = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-        int num = reader.nextInt();
-
-
-        Problem6 obj = new Problem6(num);
-
-        System.out.println(obj.checkEvenOdd());
+//        Scanner reader = new Scanner(System.in);
+//
+//        System.out.print("Enter a number: ");
+//        int num = reader.nextInt();
+//
+//
+//        Problem6 obj = new Problem6(num);
+//
+//        System.out.println(obj.checkEvenOdd());
     }
 }
 
