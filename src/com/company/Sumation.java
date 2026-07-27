@@ -8,11 +8,17 @@ public class Sumation {   //sub class
     }
 
 
-    int sumOfThreeNo(int a, int b, int c) { //method
+    public int sumOfThreeNo(int a, int b, int c) { //method
 
         int z = a + b + c;
 
         return z;
     }
+
+    public int a;
+
+    private int bIntValue;
+
+    public char newChar;
 
 }
