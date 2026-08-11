@@ -5,7 +5,7 @@ import java.util.*;
 public class SetHashSetList {
     public static void main(String[] asd){
 
-        Set<Integer> numbers = new LinkedHashSet<>();
+        Set<Integer> numbers = new HashSet<>();
 
         numbers.add(10);
         numbers.add(20);

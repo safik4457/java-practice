@@ -26,12 +26,17 @@ public class JavaArray {
 
 
         int[] nums = {10,20,10,30};
+        int sum = 0;
+        int n = nums.length; // 4
 
-        nums[0] = 200;
 
-        for(int i = 0; i < nums.length; i++) {
-            System.out.println(nums[i]);
+        for(int i = 0; i < n; i++) {
+            sum = sum + nums[i];
         }
+
+        float avg = sum / nums.length;
+
+        System.out.print(avg);
 
 
 
